@@ -21,7 +21,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@amphi/pipeline-components-core@workspace:packages/pipeline-components-core"
   dependencies:
-    "@amphi/pipeline-components-manager": ^0.8.21
+    "@amphi/pipeline-components-manager": ^0.8.19
     "@jupyter-widgets/base": ^4.1.6
     "@jupyterlab/application": ^4.1.5
     "@jupyterlab/builder": ^4.1.5
@@ -47,7 +47,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@amphi/pipeline-components-local@workspace:packages/pipeline-components-local"
   dependencies:
-    "@amphi/pipeline-components-manager": ^0.8.21
+    "@amphi/pipeline-components-manager": ^0.8.19
     "@jupyter-widgets/base": ^4.1.6
     "@jupyterlab/application": ^4.1.5
     "@jupyterlab/builder": ^4.1.5
@@ -69,7 +69,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@amphi/pipeline-components-manager@^0.8.21, @amphi/pipeline-components-manager@workspace:packages/pipeline-components-manager":
+"@amphi/pipeline-components-manager@^0.8.19, @amphi/pipeline-components-manager@workspace:packages/pipeline-components-manager":
   version: 0.0.0-use.local
   resolution: "@amphi/pipeline-components-manager@workspace:packages/pipeline-components-manager"
   dependencies:
@@ -107,11 +107,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@amphi/pipeline-editor@^0.8.21, @amphi/pipeline-editor@workspace:packages/pipeline-editor":
+"@amphi/pipeline-editor@^0.8.20, @amphi/pipeline-editor@workspace:packages/pipeline-editor":
   version: 0.0.0-use.local
   resolution: "@amphi/pipeline-editor@workspace:packages/pipeline-editor"
   dependencies:
-    "@amphi/pipeline-components-manager": ^0.8.21
+    "@amphi/pipeline-components-manager": ^0.8.19
     "@dagrejs/dagre": ^1.0.4
     "@jupyter-widgets/jupyterlab-manager": 3.1.9
     "@jupyterlab/application": ^4.2.2
@@ -132,7 +132,6 @@ __metadata:
     antd: 5.16.4
     html-to-image: ^1.11.11
     npm-run-all: ^4.1.5
-    posthog-js: ^1.194.3
     prettier: ^3.0.0
     react: ^18.2.0
     reactflow: ^11.11.4
@@ -146,7 +145,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@amphi/pipeline-log-console@workspace:packages/pipeline-console"
   dependencies:
-    "@amphi/pipeline-editor": ^0.8.21
+    "@amphi/pipeline-editor": ^0.8.20
     "@jupyterlab/application": ^4.0.0
     "@jupyterlab/apputils": ^4.0.0
     "@jupyterlab/builder": ^4.0.0
@@ -183,7 +182,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@amphi/pipeline-metadata-panel@workspace:packages/pipeline-metadata-panel"
   dependencies:
-    "@amphi/pipeline-editor": ^0.8.21
+    "@amphi/pipeline-editor": ^0.8.20
     "@jupyterlab/application": ^4.0.0
     "@jupyterlab/apputils": ^4.0.0
     "@jupyterlab/builder": ^4.0.0
@@ -4575,23 +4574,23 @@ __metadata:
   linkType: hard
 
 "@types/react@npm:^17.0.0":
-  version: 17.0.83
-  resolution: "@types/react@npm:17.0.83"
+  version: 17.0.84
+  resolution: "@types/react@npm:17.0.84"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": ^0.16
     csstype: ^3.0.2
-  checksum: c237dc47fc19bbe1af14ff89d0e9b749abfb95c0d9c3bca8292539f3d4a4b22c2a359db5e405cd274999a62e1a5fadc8e0eafe62ecc070ff3b2bbba89600b35e
+  checksum: 6c7e397dce00644f7412268e54d021ca80a119d0819b1c72441109c32b0e344741a3e4aa7b57099e8d6e3ce18cc6fb7397c998ef99b4a0f7021b7f5f1fd78119
   languageName: node
   linkType: hard
 
 "@types/react@npm:^18.0.26":
-  version: 18.3.18
-  resolution: "@types/react@npm:18.3.18"
+  version: 18.3.19
+  resolution: "@types/react@npm:18.3.19"
   dependencies:
     "@types/prop-types": "*"
     csstype: ^3.0.2
-  checksum: 5933597bc9f53e282f0438f0bb76d0f0fab60faabe760ea806e05ffe6f5c61b9b4d363e1a03a8fea47c510d493c6cf926cdeeba9f7074fa97b61940c350245e7
+  checksum: 41305614686cfc618ef154f06d3f80e7b2df4673ebbc474880c524ecbbaa48f14620b3b1c6cff9f225176932d362c62fe617020027069157cb040752902c35cb
   languageName: node
   linkType: hard
 
@@ -5664,13 +5663,13 @@ __metadata:
   linkType: hard
 
 "axios@npm:^1.0.0":
-  version: 1.8.3
-  resolution: "axios@npm:1.8.3"
+  version: 1.8.4
+  resolution: "axios@npm:1.8.4"
   dependencies:
     follow-redirects: ^1.15.6
     form-data: ^4.0.0
     proxy-from-env: ^1.1.0
-  checksum: 85fc8ad7d968e43ea9da5513310637d29654b181411012ee14cc0a4b3662782e6c81ac25eea40b5684f86ed2d8a01fa6fc20b9b48c4da14ef4eaee848fea43bc
+  checksum: e901dc1730bdcd769839b3d93ae6d6457a53d79b19a0eb623ebfea333441259ab51e63ca118baa47a5156567401466ac739f31087b4ee5e6770ab2e227484538
   languageName: node
   linkType: hard
 
@@ -6502,13 +6501,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.38.1":
-  version: 3.41.0
-  resolution: "core-js@npm:3.41.0"
-  checksum: 05331e92f354d3b92fa296fb3fc90c7b25d1a65230046c68651be29d67245bb156bdde7bf5c8cf8b3ecddfff93273a9ba6567f5e4ee6ceb70f39cee430693509
-  languageName: node
-  linkType: hard
-
 "core-util-is@npm:~1.0.0":
   version: 1.0.3
   resolution: "core-util-is@npm:1.0.3"
@@ -7192,9 +7184,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.73":
-  version: 1.5.120
-  resolution: "electron-to-chromium@npm:1.5.120"
-  checksum: 868a112942a906edbd730d948276cb198429b1dac52a7911df7f2199c227d37c197ea67c250a6bb388194f2a2b9f6bcdb7ff8a5635915920202d9966872b7ec9
+  version: 1.5.122
+  resolution: "electron-to-chromium@npm:1.5.122"
+  checksum: a1bbbcc3403920a4898f8001c1ea9c89f489f0f6419b021be3c213c430f4d5223d78982218e84fe503103848a665108f2d005d5fef61f91450d03422828fa137
   languageName: node
   linkType: hard
 
@@ -7868,13 +7860,6 @@ __metadata:
   dependencies:
     reusify: ^1.0.4
   checksum: 7691d1794fb84ad0ec2a185f10e00f0e1713b894e2c9c4d42f0bc0ba5f8c00e6e655a202074ca0b91b9c3d977aab7c30c41a8dc069fb5368576ac0054870a0e6
-  languageName: node
-  linkType: hard
-
-"fflate@npm:^0.4.8":
-  version: 0.4.8
-  resolution: "fflate@npm:0.4.8"
-  checksum: 29d8cbe44d5e7f53e7f5a160ac7f9cc025480c7b3bfd85c5f898cbe20dfa2dad4732daa534982664bf30b35896a90af44ea33ede5d94c5ffd1b8b0c0a0a56ca2
   languageName: node
   linkType: hard
 
@@ -10795,11 +10780,11 @@ __metadata:
   linkType: hard
 
 "nanoid@npm:^3.1.23, nanoid@npm:^3.3.7, nanoid@npm:^3.3.8":
-  version: 3.3.10
-  resolution: "nanoid@npm:3.3.10"
+  version: 3.3.11
+  resolution: "nanoid@npm:3.3.11"
   bin:
     nanoid: bin/nanoid.cjs
-  checksum: fcc505b06a816c847d2ad4f5690893d4f9dc61863291d065b2b02d879be4ae60d09faf44f2c619ec08f732b627cf34f6d3dd2913e52d3fe287dedb0b84448c91
+  checksum: 3be20d8866a57a6b6d218e82549711c8352ed969f9ab3c45379da28f405363ad4c9aeb0b39e9abc101a529ca65a72ff9502b00bf74a912c4b64a9d62dfd26c29
   languageName: node
   linkType: hard
 
@@ -11894,33 +11879,6 @@ __metadata:
     picocolors: ^1.1.1
     source-map-js: ^1.2.1
   checksum: da574620eb84ff60e65e1d8fc6bd5ad87a19101a23d0aba113c653434161543918229a0f673d89efb3b6d4906287eb04b957310dbcf4cbebacad9d1312711461
-  languageName: node
-  linkType: hard
-
-"posthog-js@npm:^1.194.3":
-  version: 1.231.2
-  resolution: "posthog-js@npm:1.231.2"
-  dependencies:
-    core-js: ^3.38.1
-    fflate: ^0.4.8
-    preact: ^10.19.3
-    web-vitals: ^4.2.4
-  peerDependencies:
-    "@rrweb/types": 2.0.0-alpha.17
-    rrweb-snapshot: 2.0.0-alpha.17
-  peerDependenciesMeta:
-    "@rrweb/types":
-      optional: true
-    rrweb-snapshot:
-      optional: true
-  checksum: 8693f62633f1e9cf12e51dfaf7f1e3f3a15d911db33e3fb653373813123940ab85ca7190797934e614e77e234de35dfc252e22058f939381c6b1bb39bb3136e2
-  languageName: node
-  linkType: hard
-
-"preact@npm:^10.19.3":
-  version: 10.26.4
-  resolution: "preact@npm:10.26.4"
-  checksum: 38e92630a86fbaa43a2b085f12275abebecba72165bab56b70f209116dae694ade056aadb2df3aead004e50e5f94848d730a0accf052e2c0f27afc09bafd256c
   languageName: node
   linkType: hard
 
@@ -15293,13 +15251,6 @@ __metadata:
   version: 1.1.4
   resolution: "web-namespaces@npm:1.1.4"
   checksum: 5149842ccbfbc56fe4f8758957b3f8c8616a281874a5bb84aa1b305e4436a9bad853d21c629a7b8f174902449e1489c7a6c724fccf60965077c5636bd8aed42b
-  languageName: node
-  linkType: hard
-
-"web-vitals@npm:^4.2.4":
-  version: 4.2.4
-  resolution: "web-vitals@npm:4.2.4"
-  checksum: 5b3ffe1db33f23aebf8cc8560ac574401a95939baafde5841835c1bb1c01f9a2478442f319f77aa0d7914739fc2f6b020c5d5b128c16c5c77ca6be2f9dfbbde6
   languageName: node
   linkType: hard
 
